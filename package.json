@@ -1,0 +1,23 @@
+{
+  "name": "potatohub-tailwind",
+  "version": "1.0.0",
+  "description": "My mind-blowing Nuxt.js project",
+  "author": "Nico Franke",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.0.0",
+    "nuxt-fullpage.js": "^0.0.3",
+    "nuxt-webfontloader": "^1.1.0",
+    "vue-fullpage.js": "^0.1.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}

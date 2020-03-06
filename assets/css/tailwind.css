@@ -1,0 +1,17 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'fullpage.js/dist/fullpage.min';
+@import '~/assets/css/fullpage';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+@responsive {
+  .pl-1\/6 {
+    padding-left: 16.666667%
+  }
+  .px-1\/12 {
+    padding-left: 8.333333%;
+    padding-right: 8.333333%;
+  }
+}
