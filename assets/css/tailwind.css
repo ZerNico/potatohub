@@ -14,4 +14,13 @@
     padding-left: 8.333333%;
     padding-right: 8.333333%;
   }
+  .left-1\/6 {
+    left: 16.666667%
+  }
+  .w-80 {
+    width: 20rem; 
+  }
+  .w-96 {
+    width: 24rem; 
+  }
 }

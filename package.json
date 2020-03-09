@@ -1,7 +1,7 @@
 {
   "name": "potatohub-tailwind",
   "version": "1.0.0",
-  "description": "My mind-blowing Nuxt.js project",
+  "description": "A hub for potatoes",
   "author": "Nico Franke",
   "private": true,
   "scripts": {
