@@ -243,7 +243,8 @@ export default {
         navigation: true,
         scrollingSpeed: 750,
         navigationPosition: "left",
-        autoScrolling: true
+        autoScrolling: true,
+        fitToSection: false
       }
     };
   },
