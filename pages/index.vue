@@ -201,7 +201,32 @@
         </div>
       </div>
     </section>
-    <section id="changelog-section" class="section">Changelog....</section>
+    <section id="changelog-section" class="section">
+      <div class="grid items-center grid-cols-1 pt-3">
+        <div class="col-span-6">
+          <h1
+            class="text-xl font-semibold text-center text-black md:text-4xl"
+          >Curious to see what’s changed?</h1>
+        </div>
+        <div class="col-span-6">
+          <h1 class="text-xl font-semibold text-center text-black md:text-4xl">Coming soon!</h1>
+        </div>
+        <div class="col-span-6">
+          <h1 class="text-lg font-semibold text-center text-black md:text-2xl">
+            <p>In the meantime you can check the changelog on github!</p>
+          </h1>
+        </div>
+        <div class="col-span-6">
+          <a
+            href="https://github.com/PotatoProject/vendor_potato/blob/croquette-release/CHANGELOG.md"
+          >
+            <button
+              class="px-5 py-3 mt-6 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700"
+            >Click here</button>
+          </a>
+        </div>
+      </div>
+    </section>
     <section id="download-section" class="section">Downloads....</section>
   </full-page>
 </template>
