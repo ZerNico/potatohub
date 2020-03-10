@@ -10,6 +10,15 @@
   .pl-1\/6 {
     padding-left: 16.666667%
   }
+  .pl-1\/8 {
+    padding-left: 12.5%
+  }
+  .pl-1\/7 {
+    padding-left: 14.285714%
+  }
+  .pr-1\/12 {
+    padding-right: 8.333333%;
+  }
   .px-1\/12 {
     padding-left: 8.333333%;
     padding-right: 8.333333%;
@@ -22,5 +31,14 @@
   }
   .w-96 {
     width: 24rem; 
+  }
+  .min-w-10 {
+    min-width: 2.5rem;
+  }
+  .rounded-xl {
+    border-radius: 0.75rem;
+  }
+  .rounded-2xl {
+    border-radius: 1rem;
   }
 }

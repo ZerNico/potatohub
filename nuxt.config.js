@@ -43,11 +43,19 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     'nuxt-fullpage.js',
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    'nuxt-svg-loader'
   ],
   webfontloader: {
     google: {
       families: ['Poppins:400,500,600,700']
+    }
+  },
+  svgLoader: {
+    svgoConfig: {
+      plugins: [
+        { prefixIds: false } // Disables prefixing for SVG IDs
+      ]
     }
   },
   /*
