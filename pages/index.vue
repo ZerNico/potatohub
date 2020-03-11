@@ -345,6 +345,7 @@ export default {
   data() {
     return {
       options: {
+        licenseKey: "&X18O?Q$d9",
         anchors: ["home", "features", "team", "changelog", "download"],
         sectionsColor: ["#ffffff", "#4285f4", "#db4437", "#ffffff", "#4285f4"],
         navigation: true,
