@@ -28,7 +28,7 @@
                 <p>Combining newest security patches, original features and wide device support, POSP is a product created to make your life easier and breathe some fresh air into the custom ROM scene.</p>
               </div>
               <button
-                class="px-5 py-3 mt-6 font-bold text-white rounded-full bg-p-blue hover:bg-blue-700"
+                class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
               >Learn more</button>
             </div>
           </div>
@@ -221,7 +221,7 @@
             href="https://github.com/PotatoProject/vendor_potato/blob/croquette-release/CHANGELOG.md"
           >
             <button
-              class="px-5 py-3 mt-6 font-bold text-white rounded-full bg-p-blue hover:bg-blue-700"
+              class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
             >Click here</button>
           </a>
         </div>
