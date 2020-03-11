@@ -12,17 +12,17 @@
       </div>
     </div>
     <div class="flex flex-wrap px-3 py-2 bg-gray-100 border-t border-gray-300">
-      <a v-if="youtube != null" class="pr-3" :href="youtube">
-        <img class="w-5 lg:w-6" src="@/assets/img/icons/youtube.svg?inline" />
+      <a v-if="github != null" class="pr-3" :href="github" target="_blank">
+        <img class="w-5 lg:w-6" src="@/assets/img/icons/github.svg" />
       </a>
-      <a v-if="github != null" class="pr-3" :href="github">
-        <img class="w-5 lg:w-6" src="@/assets/img/icons/github.svg?inline" />
+      <a v-if="youtube != null" class="pr-3" :href="youtube" target="_blank">
+        <img class="w-5 lg:w-6" src="@/assets/img/icons/youtube.svg" />
       </a>
-      <a v-if="instagram != null" class="pr-3" :href="instagram">
-        <img class="w-5 lg:w-6" src="@/assets/img/icons/instagram.svg?inline" />
+      <a v-if="instagram != null" class="pr-3" :href="instagram" target="_blank">
+        <img class="w-5 lg:w-6" src="@/assets/img/icons/instagram.svg" />
       </a>
-      <a v-if="twitter != null" class="pr-3" :href="twitter">
-        <img class="w-5 lg:w-6" src="@/assets/img/icons/twitter.svg?inline" />
+      <a v-if="twitter != null" class="pr-3" :href="twitter" target="_blank">
+        <img class="w-5 lg:w-6" src="@/assets/img/icons/twitter.svg" />
       </a>
     </div>
   </div>

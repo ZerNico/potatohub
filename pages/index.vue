@@ -8,12 +8,12 @@
           <div class="order-first col-span-2 md:col-span-1 md:order-last">
             <img
               id="hero"
-              src="../assets/img/hero_phones.svg?inline"
+              src="../assets/img/hero_phones.svg"
               class="hidden w-64 max-w-md mx-auto md:block lg:w-3/5"
             />
             <img
               id="hero"
-              src="../assets/img/hero_phones_small.svg?inline"
+              src="../assets/img/hero_phones_small.svg"
               class="w-7/12 pb-6 mx-auto md:hidden"
             />
           </div>
@@ -27,9 +27,11 @@
                 >(or POSP, for short) is a buttery smooth aftermarket Android™ firmware.</p>
                 <p>Combining newest security patches, original features and wide device support, POSP is a product created to make your life easier and breathe some fresh air into the custom ROM scene.</p>
               </div>
-              <button
-                class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
-              >Learn more</button>
+              <a href="#features">
+                <button
+                  class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
+                >Learn more</button>
+              </a>
             </div>
           </div>
         </div>
@@ -58,28 +60,28 @@
         <div class="col-span-8 md:col-span-4">
           <img
             id="hero"
-            src="../assets/img/better_notch.svg?inline"
+            src="../assets/img/better_notch.svg"
             class="w-24 w-full mx-auto md:w-64 lg:w-80 xl:w-96"
           />
         </div>
         <div class="col-span-8 md:col-span-3">
           <img
             id="hero"
-            src="../assets/img/volpanel_small.svg?inline"
+            src="../assets/img/volpanel_small.svg"
             class="w-10/12 w-full mx-auto md:hidden"
           />
         </div>
         <div class="col-span-8 md:col-span-4">
           <img
             id="hero"
-            src="../assets/img/ota.svg?inline"
+            src="../assets/img/ota.svg"
             class="w-full mx-auto md:w-64 lg:w-80 xl:w-96"
           />
         </div>
       </div>
       <img
         id="hero"
-        src="../assets/img/volpanel.svg?inline"
+        src="../assets/img/volpanel.svg"
         style
         class="absolute bottom-0 hidden left-1/6 md:block md:w-48 lg:w-56 xl:w-64"
       />
@@ -113,6 +115,8 @@
             role="Co-founder"
             img="https://avatars1.githubusercontent.com/u/23036430?s=460&v=4"
             github="https://github.com/ZerNico"
+            instagram="https://instagram.com/z3rnico"
+            twitter="https://twitter.com/Z3rNico"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
@@ -121,6 +125,7 @@
             role="Lead developer"
             img="https://avatars2.githubusercontent.com/u/35948825?s=460&v=4"
             github="https://github.com/rajadeja"
+            instagram="https://instagram.com/raj__jadeja"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
@@ -129,6 +134,8 @@
             role="Lead developer"
             img="https://avatars2.githubusercontent.com/u/29352339?s=460&v=4"
             github="https://github.com/HrX03"
+            instagram="https://instagram.com/b_b_biancoboi"
+            twitter="https://twitter.com/HrX2003"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
@@ -137,6 +144,7 @@
             role="Lead developer"
             img="https://avatars1.githubusercontent.com/u/40515149?s=460&v=4"
             github="https://github.com/Ashwin4RC"
+            twitter="https://twitter.com/Ashwin4RC"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
@@ -145,6 +153,8 @@
             role="Lead developer"
             img="https://avatars0.githubusercontent.com/u/17433364?s=460&v=4"
             github="https://github.com/ShreyanshLodha"
+            instagram="https://instagram.com/shreyanshlodha"
+            twitter="https://twitter.com/_ShreyanshLodha"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
@@ -153,6 +163,8 @@
             role="Developer"
             img="https://avatars0.githubusercontent.com/u/13785669?s=400&v=4"
             github="https://github.com/deletescape"
+            instagram="https://instagram.com/deletescape"
+            twitter="https://twitter.com/deletescape"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
@@ -161,6 +173,8 @@
             role="Developer"
             img="https://avatars2.githubusercontent.com/u/4006623?s=460&v=4"
             github="https://github.com/JagravNaik"
+            instagram="https://www.instagram.com/jagrav_"
+            twitter="https://twitter.com/JagravN"
           />
         </div>
         <div class="col-span-6 md:col-span-2">
@@ -219,6 +233,7 @@
         <div class="col-span-6">
           <a
             href="https://github.com/PotatoProject/vendor_potato/blob/croquette-release/CHANGELOG.md"
+            target="_blank"
           >
             <button
               class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
@@ -240,7 +255,7 @@
           <p>should be all set. Happy flashing!</p>
         </div>
         <div class="col-span-1">
-          <a href="https://sourceforge.net/projects/posp/files/">
+          <a href="https://sourceforge.net/projects/posp/files/" target="_blank">
             <button
               class="px-5 py-3 mb-10 font-semibold bg-white rounded-full text-p-blue hover:bg-gray-300"
             >Download</button>
@@ -269,10 +284,22 @@
         </div>
         <div class="flex-1">
           <DevCard class="w-64 ml-12 bg-p-red xl:ml-20 lg:w-80 xl:w-96">
-            <p
-              class="pb-5"
-            >So you think you have the guts to cook a potato or two by yourself? Great! POSP is entirely open source, so head out to our <a href="https://t.me/SaucyPotatoesOfficial" class="font-semibold text-p-yellow" target="_blank">GitHub page</a> instructions and get right to it!</p>
-            <p>Or have you been building POSP unofficially for some time now and want to become a maintainer? Fill out <a href="https://t.me/AshwinRC" class="font-semibold text-p-yellow" target="_blank">this form</a> and we’ll see what we can do!</p>
+            <p class="pb-5">
+              So you think you have the guts to cook a potato or two by yourself? Great! POSP is entirely open source, so head out to our
+              <a
+                href="https://t.me/SaucyPotatoesOfficial"
+                class="font-semibold text-p-yellow"
+                target="_blank"
+              >GitHub page</a> instructions and get right to it!
+            </p>
+            <p>
+              Or have you been building POSP unofficially for some time now and want to become a maintainer? Fill out
+              <a
+                href="https://t.me/AshwinRC"
+                class="font-semibold text-p-yellow"
+                target="_blank"
+              >this form</a> and we’ll see what we can do!
+            </p>
           </DevCard>
         </div>
       </div>
