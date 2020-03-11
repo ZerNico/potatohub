@@ -352,7 +352,8 @@ export default {
         scrollingSpeed: 750,
         navigationPosition: "left",
         autoScrolling: true,
-        fitToSection: false
+        fitToSection: false,
+        recordHistory: false
       }
     };
   },
