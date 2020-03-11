@@ -19,7 +19,7 @@
           </div>
           <div class="order-last col-span-2 md:col-span-1 md:order-first">
             <div>
-              <h1 class="pb-6 text-3xl font-bold text-green-500">Android™, enhanced</h1>
+              <h1 class="pb-6 text-3xl font-bold text-p-green">Android™, enhanced</h1>
               <div class="text-gray-700 md:px-1/12">
                 <span class="font-semibold">Potato Open Sauce Project</span>
                 <p
@@ -28,7 +28,7 @@
                 <p>Combining newest security patches, original features and wide device support, POSP is a product created to make your life easier and breathe some fresh air into the custom ROM scene.</p>
               </div>
               <button
-                class="px-5 py-3 mt-6 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700"
+                class="px-5 py-3 mt-6 font-bold text-white rounded-full bg-p-blue hover:bg-blue-700"
               >Learn more</button>
             </div>
           </div>
@@ -221,18 +221,87 @@
             href="https://github.com/PotatoProject/vendor_potato/blob/croquette-release/CHANGELOG.md"
           >
             <button
-              class="px-5 py-3 mt-6 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700"
+              class="px-5 py-3 mt-6 font-bold text-white rounded-full bg-p-blue hover:bg-blue-700"
             >Click here</button>
           </a>
         </div>
       </div>
     </section>
-    <section id="download-section" class="section">Downloads....</section>
+    <section id="download-section" class="section">
+      <div class="grid items-center grid-cols-1 p-6 mt-3 mb-32 md:mb-96 lg:mb-104">
+        <div class="col-span-1">
+          <h1
+            class="my-6 text-xl font-semibold text-center text-white sm:text-2xl md:text-4xl"
+          >Like what you see?</h1>
+        </div>
+        <div class="col-span-1 mb-6 text-white">
+          <p class>Great! Head to our downloads page, grab</p>
+          <p>a zip file for your desired device and you</p>
+          <p>should be all set. Happy flashing!</p>
+        </div>
+        <div class="col-span-1">
+          <a href="https://sourceforge.net/projects/posp/files/">
+            <button
+              class="px-5 py-3 mb-10 font-semibold bg-white rounded-full text-p-blue hover:bg-gray-300"
+            >Download</button>
+          </a>
+        </div>
+        <div class="col-span-1">
+          <h1
+            class="mb-6 text-xl font-semibold text-center text-white sm:text-2xl md:mb-0 md:text-4xl"
+          >Don’t see your device on the list?</h1>
+        </div>
+        <div class="col-span-1 mb-6">
+          <UserDevCardMobile class="w-full md:hidden" />
+        </div>
+        <div class="col-span-1">
+          <DevDevCardMobile class="w-full md:hidden" />
+        </div>
+      </div>
+      <div class="absolute bottom-0 flex hidden w-full pb-10 md:flex">
+        <div class="flex-1">
+          <DevCard class="w-64 ml-auto mr-12 bg-p-yellow xl:w-96 lg:w-80 xl:mr-20">
+            <p
+              class="pb-5"
+            >Don’t worry, we’re supporting more and more devices as we grow, so there is a chance that in the near future, we’ll support yours too!</p>
+            <p>Some developers also build POSP unofficially, so you can search your device’s xda page for one and try it out. We’re not responsible for any bugs you encounter in those builds, though.</p>
+          </DevCard>
+        </div>
+        <div class="flex-1">
+          <DevCard class="w-64 ml-12 bg-p-red xl:ml-20 lg:w-80 xl:w-96">
+            <p
+              class="pb-5"
+            >So you think you have the guts to cook a potato or two by yourself? Great! POSP is entirely open source, so head out to our <a href="https://t.me/SaucyPotatoesOfficial" class="font-semibold text-p-yellow" target="_blank">GitHub page</a> instructions and get right to it!</p>
+            <p>Or have you been building POSP unofficially for some time now and want to become a maintainer? Fill out <a href="https://t.me/AshwinRC" class="font-semibold text-p-yellow" target="_blank">this form</a> and we’ll see what we can do!</p>
+          </DevCard>
+        </div>
+      </div>
+      <div class="absolute bottom-0 w-full bg-black md:h-10 lg:h-12">
+        <ul
+          class="h-full py-4 pl-5 text-left md:p-0 text-p-gray md:items-center md:inline-flex md:flex text-2xs lg:text-xs xl:text-sm"
+        >
+          <li class="px-1 pb-1 md:pb-0 lg:pr-2">Website created by Karol Szcześniak & Nico Franke</li>
+          <li class="px-1 py-1 md:py-0 lg:px-2">
+            <a href="https://t.me/SaucyPotatoesOfficial" target="_blank">Our Telegram channel</a>
+          </li>
+          <li class="px-1 py-1 md:py-0 lg:px-2">
+            <a href="https://github.com/PotatoProject" target="_blank">Our GitHub</a>
+          </li>
+          <li class="px-1 py-1 md:py-0 lg:px-2">
+            <a href="https://crowdin.com/project/posp" target="_blank">Help us with translation</a>
+          </li>
+          <li class="pt-1 pl-1 md:pt-0 lg:pl-2">© 2020 Potato Open Sauce Project</li>
+        </ul>
+      </div>
+    </section>
   </full-page>
 </template>
 
 <script>
 import TeamCard from "~/components/team-card";
+import DevCard from "~/components/dev-card";
+import UserDevCardMobile from "~/components/user-dev-card-mobile";
+import DevDevCardMobile from "~/components/dev-dev-card-mobile";
 export default {
   data() {
     return {
@@ -264,7 +333,10 @@ export default {
     }
   },
   components: {
-    TeamCard
+    TeamCard,
+    DevCard,
+    UserDevCardMobile,
+    DevDevCardMobile
   }
 };
 </script>

@@ -26,19 +26,17 @@
   .left-1\/6 {
     left: 16.666667%
   }
-  .w-80 {
-    width: 20rem; 
-  }
-  .w-96 {
-    width: 24rem; 
-  }
-  .min-w-10 {
-    min-width: 2.5rem;
-  }
   .rounded-xl {
     border-radius: 0.75rem;
   }
+  .rounded-t-xl {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
   .rounded-2xl {
     border-radius: 1rem;
+  }
+  .text-2xs {
+    font-size: .65rem;
   }
 }

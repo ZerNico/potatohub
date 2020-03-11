@@ -1,0 +1,44 @@
+<template>
+  <svg
+    viewBox="0 0 1750 850"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="1750" height="850" rx="50" fill="#F4B400" />
+    <path
+      d="M0 50C0 22.3858 22.3858 0 50 0H150V850H50C22.3858 850 0 827.614 0 800V50Z"
+      fill="black"
+      fill-opacity="0.1"
+    />
+    <text
+      fill="white"
+      xml:space="preserve"
+      style="white-space: pre"
+      font-family="Poppins"
+      font-size="60"
+      font-weight="500"
+      letter-spacing="-0.02em"
+    >
+      <tspan x="200" y="131">Don&#x2019;t worry, we&#x2019;re supporting more and more</tspan>
+      <tspan x="200" y="221">devices as we grow, so there is a chance that in the</tspan>
+      <tspan x="200" y="311">near future, we&#x2019;ll support yours too!&#10;</tspan>
+      <tspan x="200" y="401">&#10;</tspan>
+      <tspan x="200" y="491">Some developers also build POSP unofficially, so</tspan>
+      <tspan x="200" y="581">you can search your device&#x2019;s xda page for one and</tspan>
+      <tspan x="200" y="671">try it out. We&#x2019;re not responsible for any bugs you</tspan>
+      <tspan x="200" y="761">encounter in those builds, though.</tspan>
+    </text>
+    <text
+      transform="translate(26 604) rotate(-90)"
+      fill="white"
+      xml:space="preserve"
+      style="white-space: pre"
+      font-family="Poppins"
+      font-size="64"
+      font-weight="600"
+      letter-spacing="0em"
+    >
+      <tspan x="0" y="70.4">I&#x2019;m a user</tspan>
+    </text>
+  </svg>
+</template>

@@ -4,10 +4,10 @@
       <img class="w-10 mr-2 rounded-full sm:mr-3 min-w-10 sm:w-12 md:w-10 lg:w-12" :src="img" />
       <div class="text-left truncate">
         <p
-          class="pb-1 text-xs font-semibold leading-none text-black truncate sm:text-sm md:text-sm lg:text-lg"
+          class="text-xs font-semibold leading-tight text-black truncate sm:text-sm md:text-sm lg:text-lg"
         >{{ name }}</p>
         <p
-          class="text-xs leading-none text-black truncate sm:text-xs md:text-xs lg:text-sm"
+          class="text-xs text-black truncate sm:text-xs md:text-xs lg:text-sm"
         >{{ role }}</p>
       </div>
     </div>
