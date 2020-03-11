@@ -59,30 +59,20 @@
         </div>
         <div class="col-span-8 md:col-span-4">
           <img
-            id="hero"
             src="../assets/img/better_notch.svg"
             class="w-24 w-full mx-auto md:w-64 lg:w-80 xl:w-96"
           />
         </div>
         <div class="col-span-8 md:col-span-3">
-          <img
-            id="hero"
-            src="../assets/img/volpanel_small.svg"
-            class="w-10/12 w-full mx-auto md:hidden"
-          />
+          <img src="../assets/img/volpanel_small.svg" class="w-10/12 w-full mx-auto md:hidden" />
         </div>
         <div class="col-span-8 md:col-span-4">
-          <img
-            id="hero"
-            src="../assets/img/ota.svg"
-            class="w-full mx-auto md:w-64 lg:w-80 xl:w-96"
-          />
+          <img src="../assets/img/ota.svg" class="w-full mx-auto md:w-64 lg:w-80 xl:w-96" />
         </div>
       </div>
       <img
-        id="hero"
         src="../assets/img/volpanel.svg"
-        style
+        style="transform: translateY(1px);"
         class="absolute bottom-0 hidden left-1/6 md:block md:w-48 lg:w-56 xl:w-64"
       />
     </section>
@@ -214,7 +204,18 @@
           />
         </div>
       </div>
+      <img
+        src="../assets/img/team_circle_top.svg"
+        style="transform: translateY(-1px);"
+        class="absolute top-0 right-0 hidden w-24 lg:w-32 md:block"
+      />
+      <img
+        src="../assets/img/team_circle_bottom.svg"
+        style="transform: translateY(1px);"
+        class="absolute bottom-0 left-0 hidden w-24 lg:w-32 md:block"
+      />
     </section>
+    <!-- Changelog section -->
     <section id="changelog-section" class="section">
       <div class="grid items-center grid-cols-1 pt-3">
         <div class="col-span-6">
@@ -241,7 +242,13 @@
           </a>
         </div>
       </div>
+      <img
+        src="../assets/img/phone_top.svg"
+        style="width: 11.2rem; transform: translateY(1px);"
+        class="absolute bottom-0 left-0 hidden md:block"
+      />
     </section>
+    <!-- Download section -->
     <section id="download-section" class="section">
       <div class="grid items-center grid-cols-1 p-6 mt-3 mb-32 md:mb-96 lg:mb-104">
         <div class="col-span-1">
@@ -320,6 +327,11 @@
           <li class="pt-1 pl-1 md:pt-0 lg:pl-2">© 2020 Potato Open Sauce Project</li>
         </ul>
       </div>
+      <img
+        src="../assets/img/phone_bottom.svg"
+        style
+        class="absolute top-0 left-0 hidden w-40 md:block"
+      />
     </section>
   </full-page>
 </template>
@@ -333,7 +345,6 @@ export default {
   data() {
     return {
       options: {
-        licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
         anchors: ["home", "features", "team", "changelog", "download"],
         sectionsColor: ["#ffffff", "#4285f4", "#db4437", "#ffffff", "#4285f4"],
         navigation: true,
