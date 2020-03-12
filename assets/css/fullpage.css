@@ -2,19 +2,23 @@
   padding-left: 8% !important;
   left: 0 !important;
 }
+
 #fp-nav ul li {
   margin: 0 0 32px 0;
 }
+
 #fp-nav ul li a span {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   width: 16px !important;
   height: 16px !important;
   margin: -8px 0 0 -8px !important;
 }
+
 #fp-nav ul li a.active[href="#home"] span,
 #fp-nav ul li a.active[href="#changelog"] span {
   background: #4285f4;
 }
+
 #fp-nav ul li a.active span {
   background: white;
 }
@@ -22,18 +26,38 @@
 .fullPage {
   display: block;
 }
+
 .section {
   text-align: center;
 }
+
 .fp-tableCell {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
   height: 100%;
 }
+
 .section.fp-table {
   display: table;
   table-layout: fixed;
   width: 100%;
   height: 100vh;
+}
+
+.fullpage-wrapper .p-absolute {
+  @apply absolute;
+}
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  @-moz-document url-prefix() {
+    html, body {
+      overflow: hidden !important;
+    }
+  }
 }

@@ -73,7 +73,7 @@
       <img
         src="../assets/img/volpanel.svg"
         style="transform: translateY(1px);"
-        class="absolute bottom-0 hidden left-1/6 md:block md:w-48 lg:w-56 xl:w-64"
+        class="bottom-0 hidden p-absolute left-1/6 md:block md:w-48 lg:w-56 xl:w-64"
       />
     </section>
     <!-- Team section -->
@@ -207,12 +207,12 @@
       <img
         src="../assets/img/team_circle_top.svg"
         style="transform: translateY(-1px);"
-        class="absolute top-0 right-0 hidden w-24 lg:w-32 md:block"
+        class="top-0 right-0 hidden w-24 p-absolute lg:w-32 md:block"
       />
       <img
         src="../assets/img/team_circle_bottom.svg"
         style="transform: translateY(1px);"
-        class="absolute bottom-0 left-0 hidden w-24 lg:w-32 md:block"
+        class="bottom-0 left-0 hidden w-24 p-absolute lg:w-32 md:block"
       />
     </section>
     <!-- Changelog section -->
@@ -245,7 +245,7 @@
       <img
         src="../assets/img/phone_top.svg"
         style="width: 11.2rem; transform: translateY(1px);"
-        class="absolute bottom-0 left-0 hidden md:block"
+        class="bottom-0 left-0 hidden p-absolute md:block"
       />
     </section>
     <!-- Download section -->
@@ -280,7 +280,7 @@
           <DevDevCardMobile class="w-full md:hidden" />
         </div>
       </div>
-      <div class="absolute bottom-0 flex hidden w-full pb-10 md:flex">
+      <div class="bottom-0 flex hidden w-full pb-10 p-absolute md:flex">
         <div class="flex-1">
           <DevCard class="w-64 ml-auto mr-12 bg-p-yellow xl:w-96 lg:w-80 xl:mr-20">
             <p
@@ -310,7 +310,7 @@
           </DevCard>
         </div>
       </div>
-      <div class="absolute bottom-0 w-full bg-black md:h-10 lg:h-12">
+      <div class="bottom-0 w-full bg-black p-absolute md:h-10 lg:h-12">
         <ul
           class="h-full py-4 pl-5 text-left md:p-0 text-p-gray md:items-center md:inline-flex md:flex text-2xs lg:text-xs xl:text-sm"
         >
@@ -330,7 +330,7 @@
       <img
         src="../assets/img/phone_bottom.svg"
         style
-        class="absolute top-0 left-0 hidden w-40 md:block"
+        class="top-0 left-0 hidden w-40 p-absolute md:block"
       />
     </section>
   </full-page>
