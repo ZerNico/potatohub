@@ -3,16 +3,15 @@
   <full-page id="fullpage" ref="fullpage" class="fullPage" :options="options">
     <!-- Home section -->
     <section id="home-section" class="section fp-table">
+      <NavBar :parentRefs="$refs" class="absolute top-0 w-full md:mt-5"></NavBar>
       <div class="fp-tableCell">
-        <div class="grid items-center grid-cols-2 p-6 md:pl-1/6">
+        <div class="grid items-center grid-cols-2 p-6 mt-10 md:mt-12 md:pl-1/6 xl:mt-16">
           <div class="order-first col-span-2 md:col-span-1 md:order-last">
             <img
-              id="hero"
               src="../assets/img/hero_phones.svg"
               class="hidden w-64 max-w-md mx-auto md:block lg:w-3/5"
             />
             <img
-              id="hero"
               src="../assets/img/hero_phones_small.svg"
               class="w-7/12 pb-6 mx-auto md:hidden"
             />
@@ -336,6 +335,7 @@
 </template>
 
 <script>
+import NavBar from "~/components/nav-bar"
 import TeamCard from "~/components/team-card";
 import DevCard from "~/components/dev-card";
 import UserDevCardMobile from "~/components/user-dev-card-mobile";
@@ -373,6 +373,7 @@ export default {
     }
   },
   components: {
+    NavBar,
     TeamCard,
     DevCard,
     UserDevCardMobile,
