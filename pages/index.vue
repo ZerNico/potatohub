@@ -90,88 +90,88 @@
           <h1 class="text-xl font-semibold text-left text-white md:text-3xl">Core Team</h1>
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Kshitij Gupta"
             role="Founder"
-            img="https://avatars1.githubusercontent.com/u/18647641?s=460&v=4"
+            img="@/assets/img/pfp/kshitij.webp"
             github="https://github.com/AgentFabulous"
             instagram="https://instagram.com/agent_fabulous"
             twitter="https://twitter.com/Agent_fabulous"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Nico Franke"
             role="Co-founder"
-            img="https://avatars1.githubusercontent.com/u/23036430?s=460&v=4"
+            img="@/assets/img/pfp/nico.webp"
             github="https://github.com/ZerNico"
             instagram="https://instagram.com/z3rnico"
             twitter="https://twitter.com/Z3rNico"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Raj Jadeja"
             role="Lead developer"
-            img="https://avatars2.githubusercontent.com/u/35948825?s=460&v=4"
+            img="@/assets/img/pfp/raj.webp"
             github="https://github.com/rajadeja"
             instagram="https://instagram.com/raj__jadeja"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="HrX"
             role="Lead developer"
-            img="https://avatars2.githubusercontent.com/u/29352339?s=460&v=4"
+            img="@/assets/img/pfp/hrx.webp"
             github="https://github.com/HrX03"
             instagram="https://instagram.com/b_b_biancoboi"
             twitter="https://twitter.com/HrX2003"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Ashwin R C"
             role="Lead developer"
-            img="https://avatars1.githubusercontent.com/u/40515149?s=460&v=4"
+            img="@/assets/img/pfp/ashwin.webp"
             github="https://github.com/Ashwin4RC"
             twitter="https://twitter.com/Ashwin4RC"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Shreyansh Lodha"
             role="Lead developer"
-            img="https://avatars0.githubusercontent.com/u/17433364?s=460&v=4"
+            img="@/assets/img/pfp/shreyansh.webp"
             github="https://github.com/ShreyanshLodha"
             instagram="https://instagram.com/shreyanshlodha"
             twitter="https://twitter.com/_ShreyanshLodha"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Till Kottmann"
             role="Developer"
-            img="https://avatars0.githubusercontent.com/u/13785669?s=400&v=4"
+            img="@/assets/img/pfp/till.webp"
             github="https://github.com/deletescape"
             instagram="https://instagram.com/deletescape"
             twitter="https://twitter.com/deletescape"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Jagrav Naik"
             role="Developer"
-            img="https://avatars2.githubusercontent.com/u/4006623?s=460&v=4"
+            img="@/assets/img/pfp/jagrav.webp"
             github="https://github.com/JagravNaik"
             instagram="https://www.instagram.com/jagrav_"
             twitter="https://twitter.com/JagravN"
           />
         </div>
         <div class="col-span-6 md:col-span-2">
-          <team-card
+          <TeamCard
             name="SphericalKat"
             role="Developer"
-            img="https://avatars0.githubusercontent.com/u/31761843?s=460&v=4"
+            img="@/assets/img/pfp/kat.webp"
             github="https://github.com/ATechnoHazard"
           />
         </div>
@@ -179,26 +179,26 @@
           <h1 class="text-xl font-semibold text-left text-white md:text-3xl">Designers</h1>
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Rishi Bafna"
             role="UI / UX Designer"
-            img="https://i.imgur.com/XylFonZ.png"
+            img="@/assets/img/pfp/rishi.webp"
             twitter="https://twitter.com/rshbfn"
           />
         </div>
         <div class="col-span-3 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Karol Szcześniak"
             role="UI / UX Designer"
-            img="https://avatars2.githubusercontent.com/u/24192214?s=460&v=4"
+            img="@/assets/img/pfp/karol.webp"
             github="https://github.com/McAwesomePL"
           />
         </div>
         <div class="col-span-6 md:col-span-2">
-          <team-card
+          <TeamCard
             name="Parth Shah"
             role="Designer and Animator"
-            img="https://avatars0.githubusercontent.com/u/41704108?s=460&v=4"
+            img="@/assets/img/pfp/parth.webp"
             youtube="https://www.youtube.com/channel/UCkzhkIspDgx1HsUnA2oeUqA"
             github="https://github.com/valvze"
           />
