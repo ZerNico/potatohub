@@ -27,11 +27,10 @@
                 >(or POSP, for short) is a buttery smooth aftermarket Android™ firmware.</p>
                 <p>Combining newest security patches, original features and wide device support, POSP is a product created to make your life easier and breathe some fresh air into the custom ROM scene.</p>
               </div>
-              <a href="#features">
-                <button
-                  class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
-                >Learn more</button>
-              </a>
+              <button
+                v-on:click="$refs.fullpage.api.moveSectionDown()"
+                class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
+              >Learn more</button>
             </div>
           </div>
         </div>
@@ -353,7 +352,8 @@ export default {
         navigationPosition: "left",
         autoScrolling: true,
         fitToSection: false,
-        recordHistory: false
+        recordHistory: false,
+        lockAnchors: true
       }
     };
   },
