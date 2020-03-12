@@ -18,6 +18,7 @@ module.exports = {
         'p-gray': '#727272'
       },
       spacing: {
+        '36': '9rem',
         '72': '18rem',
         '80': '20rem',
         '96': '24rem',

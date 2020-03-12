@@ -87,7 +87,7 @@
         class="grid items-center grid-cols-6 gap-3 px-6 pb-6 md:pl-1/8 md:pr-8 md:gap-4 lg:gap-6 lg:pr-1/12"
       >
         <div class="col-span-6">
-          <h1 class="text-3xl font-semibold text-left text-white">Core Team</h1>
+          <h1 class="text-xl font-semibold text-left text-white md:text-3xl">Core Team</h1>
         </div>
         <div class="col-span-3 md:col-span-2">
           <team-card
@@ -176,7 +176,7 @@
           />
         </div>
         <div class="col-span-6">
-          <h1 class="text-3xl font-semibold text-left text-white">Designers</h1>
+          <h1 class="text-xl font-semibold text-left text-white md:text-3xl">Designers</h1>
         </div>
         <div class="col-span-3 md:col-span-2">
           <team-card
@@ -250,7 +250,7 @@
     </section>
     <!-- Download section -->
     <section id="download-section" class="section">
-      <div class="grid items-center grid-cols-1 p-6 mt-3 mb-32 md:mb-96 lg:mb-104">
+      <div class="grid items-center grid-cols-1 p-6 mt-3 mb-36 md:mb-96 lg:mb-104">
         <div class="col-span-1">
           <h1
             class="my-6 text-xl font-semibold text-center text-white sm:text-2xl md:text-4xl"
