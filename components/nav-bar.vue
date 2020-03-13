@@ -3,13 +3,13 @@
     <div
       class="flex items-center justify-between p-4 text-2xl font-semibold xl:text-3xl md:justify-center"
     >
-      <button @click="collapsed = !collapsed" class="md:hidden">
+      <button @click="collapsed = !collapsed" class="md:hidden focus:outline-none">
         <img class="w-10" src="@/assets/img/icons/menu.svg" />
       </button>
       <a href="/" class="md:hidden">
         <img src="@/assets/img/logo_large.svg" class="w-24" />
       </a>
-      <button @click="parentRefs.fullpage.api.moveTo(5)" class="md:hidden">
+      <button @click="parentRefs.fullpage.api.moveTo(5)" class="md:hidden focus:outline-none">
         <img class="w-10" src="@/assets/img/icons/arrow.svg" />
       </button>
       <a href="/" class="hidden mr-4 md:block">
@@ -17,7 +17,7 @@
       </a>
       <button
         v-on:click="parentRefs.fullpage.api.moveTo(1)"
-        class="hidden px-5 py-2 mx-3 text-lg font-semibold text-white rounded-full xl:text-xl md:block bg-p-red"
+        class="hidden px-5 py-2 mx-3 text-lg font-semibold text-white rounded-full focus:outline-none xl:text-xl md:block bg-p-red"
       >Home</button>
       <a
         class="hidden mx-4 cursor-pointer md:block"
@@ -42,7 +42,7 @@
       class="absolute top-0 left-0 h-screen bg-white md:hidden w-72 sm:w-96 drawer"
       v-bind:class="{collapsed: collapsed}"
     >
-      <button class="absolute left-0 m-4" @click="collapsed = !collapsed">
+      <button class="absolute left-0 m-4 focus:outline-none" @click="collapsed = !collapsed">
         <img class="w-10" src="@/assets/img/icons/menu.svg" />
       </button>
       <div class="flex justify-center h-full">

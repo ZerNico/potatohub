@@ -28,7 +28,7 @@
               </div>
               <button
                 v-on:click="$refs.fullpage.api.moveSectionDown()"
-                class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
+                class="px-5 py-3 mt-6 font-semibold text-white rounded-full focus:outline-none bg-p-blue hover:bg-blue-700"
               >Learn more</button>
             </div>
           </div>
@@ -235,7 +235,7 @@
             target="_blank"
           >
             <button
-              class="px-5 py-3 mt-6 font-semibold text-white rounded-full bg-p-blue hover:bg-blue-700"
+              class="px-5 py-3 mt-6 font-semibold text-white rounded-full focus:outline-none bg-p-blue hover:bg-blue-700"
             >Click here</button>
           </a>
         </div>
