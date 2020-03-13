@@ -15,7 +15,8 @@ module.exports = {
         'p-yellow': '#F4B400',
         'p-blue': '#4285F4',
         'p-green': '#0F9D58',
-        'p-gray': '#727272'
+        'p-gray': '#727272',
+        'p-lightgray': '#e6e6e6'
       },
       spacing: {
         '36': '9rem',

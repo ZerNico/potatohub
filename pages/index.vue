@@ -313,13 +313,13 @@
           class="h-full py-4 pl-5 text-left md:p-0 text-p-gray md:items-center md:inline-flex md:flex text-2xs lg:text-xs xl:text-sm"
         >
           <li class="px-1 pb-1 md:pb-0 lg:pr-2">Website created by Karol Szcześniak & Nico Franke</li>
-          <li class="px-1 py-1 md:py-0 lg:px-2">
+          <li class="px-1 py-1 md:py-0 lg:px-2 hover:text-p-lightgray">
             <a href="https://t.me/SaucyPotatoesOfficial" target="_blank">Our Telegram channel</a>
           </li>
-          <li class="px-1 py-1 md:py-0 lg:px-2">
+          <li class="px-1 py-1 md:py-0 lg:px-2 hover:text-p-lightgray">
             <a href="https://github.com/PotatoProject" target="_blank">Our GitHub</a>
           </li>
-          <li class="px-1 py-1 md:py-0 lg:px-2">
+          <li class="px-1 py-1 md:py-0 lg:px-2 hover:text-p-lightgray">
             <a href="https://github.com/ZerNico/potatohub" target="_blank">View source code</a>
           </li>
           <li class="pt-1 pl-1 md:pt-0 lg:pl-2">© 2020 Potato Open Sauce Project</li>
