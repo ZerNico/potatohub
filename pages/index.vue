@@ -295,7 +295,7 @@
                 href="https://t.me/SaucyPotatoesOfficial"
                 class="font-semibold text-p-yellow"
                 target="_blank"
-              >GitHub page</a> instructions and get right to it!
+              >GitHub page</a> for instructions and get right to it!
             </p>
             <p>
               Or have you been building POSP unofficially for some time now and want to become a maintainer? Fill out
