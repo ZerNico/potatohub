@@ -13,11 +13,11 @@
         <img class="w-10" src="@/assets/img/icons/arrow.svg" />
       </button>
       <a href="/" class="hidden mr-4 md:block">
-        <img src="@/assets/img/logo.svg" class="w-6" />
+        <img src="@/assets/img/logo.svg" class="w-6 xl:w-8" />
       </a>
       <button
         v-on:click="parentRefs.fullpage.api.moveTo(1)"
-        class="hidden px-4 py-2 mx-3 text-base font-semibold text-white rounded-full xl:text-lg md:block bg-p-red"
+        class="hidden px-5 py-2 mx-3 text-lg font-semibold text-white rounded-full xl:text-xl md:block bg-p-red"
       >Home</button>
       <a
         class="hidden mx-4 cursor-pointer md:block"
