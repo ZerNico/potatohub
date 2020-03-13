@@ -95,10 +95,10 @@ export default {
 
 <style>
 .drawer {
-  transition: margin 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 .drawer.collapsed {
-  margin-left: -24rem;
+  transform: translateX(-24rem);
 }
 
 .shadow {
