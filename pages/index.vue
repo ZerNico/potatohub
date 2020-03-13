@@ -369,7 +369,10 @@ export default {
   methods: {
     onResize() {
       this.options.navigation = window.innerWidth > 768;
-      this.options.autoScrolling = window.innerWidth > 768;
+      if (window.innerWidth < 768 || window.innerHeight < 800)
+        this.options.autoScrolling = false;
+      else
+        this.options.autoScrolling = true;
     }
   },
   components: {
