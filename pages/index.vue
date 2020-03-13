@@ -41,7 +41,7 @@
         <div class="col-span-8 md:col-span-4">
           <div class="inline-block mx-auto">
             <h1
-              class="hidden font-bold text-left text-white md:block md:text-xl lg:text-2xl xl:text-3xl"
+              class="hidden font-bold text-left text-white md:block md:text-xl lg:text-2xl xl:text-vw-4xl max-text-4xl"
             >
               <p>We've included many</p>
               <p>useful features,</p>
@@ -58,20 +58,20 @@
         <div class="col-span-8 md:col-span-4">
           <img
             src="../assets/img/better_notch.svg"
-            class="w-24 w-full mx-auto md:w-64 lg:w-80 xl:w-96"
+            class="w-full mx-auto md:w-80 lg:w-104 xl:w-full xl:px-16 xl:max-w-3xl"
           />
         </div>
         <div class="col-span-8 md:col-span-3">
-          <img src="../assets/img/volpanel_small.svg" class="w-10/12 w-full mx-auto md:hidden" />
+          <img src="../assets/img/volpanel_small.svg" class="w-full mx-auto md:hidden" />
         </div>
         <div class="col-span-8 md:col-span-4">
-          <img src="../assets/img/ota.svg" class="w-full mx-auto md:w-64 lg:w-80 xl:w-96" />
+          <img src="../assets/img/ota.svg" class="w-full mx-auto md:w-80 lg:w-104 xl:w-full xl:px-16 xl:max-w-3xl" />
         </div>
       </div>
       <img
         src="../assets/img/volpanel.svg"
         style="transform: translateY(1px);"
-        class="bottom-0 hidden p-absolute left-1/6 md:block md:w-48 lg:w-56 xl:w-64"
+        class="bottom-0 hidden p-absolute max-h-1/2 left-1/6 md:block md:w-48 lg:w-56 xl:w-64"
       />
     </section>
     <!-- Team section -->
@@ -384,3 +384,12 @@ export default {
   }
 };
 </script>
+
+<style>
+
+@media (min-width: 1920px) {
+  .max-text-4xl {
+    font-size: 2.5rem !important;
+  } 
+}
+</style>

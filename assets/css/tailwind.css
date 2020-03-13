@@ -39,4 +39,10 @@
   .text-2xs {
     font-size: .65rem;
   }
+  .text-vw-4xl {
+    font-size: 2vw;
+  }
+  .max-h-1\/2 {
+    max-height: 50%;  
+  }
 }
