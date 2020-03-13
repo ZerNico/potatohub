@@ -280,7 +280,7 @@
       </div>
       <div class="bottom-0 flex hidden w-full pb-10 p-absolute md:flex">
         <div class="flex-1">
-          <DevCard class="w-64 ml-auto mr-12 bg-p-yellow xl:w-96 lg:w-80 xl:mr-20">
+          <DevCard header="I'm a user" class="w-64 ml-auto mr-12 bg-p-yellow xl:w-96 lg:w-80 xl:mr-20">
             <p
               class="pb-5"
             >Don’t worry, we’re supporting more and more devices as we grow, so there is a chance that in the near future, we’ll support yours too!</p>
@@ -288,7 +288,7 @@
           </DevCard>
         </div>
         <div class="flex-1">
-          <DevCard class="w-64 ml-12 bg-p-red xl:ml-20 lg:w-80 xl:w-96">
+          <DevCard header="I'm a developer" class="w-64 ml-12 bg-p-red xl:ml-20 lg:w-80 xl:w-96">
             <p class="pb-5">
               So you think you have the guts to cook a potato or two by yourself? Great! POSP is entirely open source, so head out to our
               <a
