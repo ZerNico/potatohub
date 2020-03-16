@@ -36,6 +36,9 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+  transition: {
+    css: false
+  },
   /*
   ** Nuxt.js modules
   */
@@ -55,6 +58,8 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    baseURL: 'http://potatoapi.proxy:8082/',
+    browserBaseURL: 'https://api.potatoproject.co/'
   },
   /*
   ** Build configuration

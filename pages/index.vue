@@ -11,10 +11,7 @@
               src="../assets/img/hero_phones.svg"
               class="hidden w-64 max-w-md mx-auto md:block lg:w-3/5"
             />
-            <img
-              src="../assets/img/hero_phones_small.svg"
-              class="w-7/12 pb-6 mx-auto md:hidden"
-            />
+            <img src="../assets/img/hero_phones_small.svg" class="w-7/12 pb-6 mx-auto md:hidden" />
           </div>
           <div class="order-last col-span-2 md:col-span-1 md:order-first">
             <div>
@@ -65,7 +62,10 @@
           <img src="../assets/img/volpanel_small.svg" class="w-full mx-auto md:hidden" />
         </div>
         <div class="col-span-8 md:col-span-4">
-          <img src="../assets/img/ota.svg" class="w-full mx-auto md:w-80 lg:w-104 xl:w-full xl:px-16 xl:max-w-3xl" />
+          <img
+            src="../assets/img/ota.svg"
+            class="w-full mx-auto md:w-80 lg:w-104 xl:w-full xl:px-16 xl:max-w-3xl"
+          />
         </div>
       </div>
       <img
@@ -215,29 +215,58 @@
     </section>
     <!-- Changelog section -->
     <section id="changelog-section" class="section">
-      <div class="grid items-center grid-cols-1 pt-3">
-        <div class="col-span-6">
+      <div class="grid items-center grid-cols-2 pt-3">
+        <div class="col-span-2">
           <h1
-            class="text-xl font-semibold text-center text-black md:text-4xl"
+            class="text-xl font-semibold text-center text-black sm:text-2xl md:text-4xl"
           >Curious to see what’s changed?</h1>
         </div>
-        <div class="col-span-6">
-          <h1 class="text-xl font-semibold text-center text-black md:text-4xl">Coming soon!</h1>
+      </div>
+      <div class="grid items-center grid-cols-6 pt-3 md:pt-10 md:pl-1/8 md:pr-1/6">
+        <div class="col-span-2">
+          <ChangelogCard
+            title="Latest version:"
+            :data="changelog.version"
+            class="w-32 mx-auto sm:w-40 md:mx-0 lg:w-48 xl:w-56 bg-p-yellow"
+          ></ChangelogCard>
         </div>
-        <div class="col-span-6">
-          <h1 class="text-lg font-semibold text-center text-black md:text-2xl">
-            <p>In the meantime you can check the changelog on github!</p>
-          </h1>
+        <div class="col-span-2">
+          <ChangelogCard
+            title="Android version:"
+            :data="'Android ' + changelog.android_version"
+            class="w-32 mx-auto sm:w-40 md:mx-0 lg:w-48 xl:w-56 bg-p-green"
+          ></ChangelogCard>
         </div>
-        <div class="col-span-6">
-          <a
-            href="https://github.com/PotatoProject/vendor_potato/blob/croquette-release/CHANGELOG.md"
-            target="_blank"
-          >
-            <button
-              class="px-5 py-3 mt-6 font-semibold text-white rounded-full focus:outline-none bg-p-blue hover:bg-blue-700"
-            >Click here</button>
-          </a>
+        <div class="col-span-2">
+          <ChangelogCard
+            title="Release date:"
+            :data="changeDateFormat(changelog.date)"
+            class="w-32 mx-auto sm:w-40 md:mx-0 lg:w-48 xl:w-56 bg-p-blue"
+          ></ChangelogCard>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-2 pt-6 pb-4 text-base md:pt-10 lg:pt-10 lg:text-lg xl:text-xl text-p-gray pl-1/8 md:pr-8 lg:pr-1/12"
+      >
+        <div class="col-span-2 md:col-span-1">
+          <ul class="text-left list-dot" ref="left">
+            <li
+              class="mb-2"
+              v-for="(change, index) in left"
+              :key="index"
+              :ref="'left-'+index"
+            >{{ change }}</li>
+          </ul>
+        </div>
+        <div class="col-span-2 md:col-span-1">
+          <ul class="text-left list-dot" ref="right">
+            <li
+              class="mb-2 md:ml-3"
+              v-for="(change, index) in right"
+              :key="index"
+              :ref="'right-'+index"
+            >{{ change }}</li>
+          </ul>
         </div>
       </div>
       <img
@@ -280,7 +309,10 @@
       </div>
       <div class="bottom-0 flex hidden w-full pb-10 p-absolute md:flex">
         <div class="flex-1">
-          <DevCard header="I'm a user" class="w-64 ml-auto mr-12 bg-p-yellow xl:w-96 lg:w-80 xl:mr-20">
+          <DevCard
+            header="I'm a user"
+            class="w-64 ml-auto mr-12 bg-p-yellow xl:w-96 lg:w-80 xl:mr-20"
+          >
             <p
               class="pb-5"
             >Don’t worry, we’re supporting more and more devices as we grow, so there is a chance that in the near future, we’ll support yours too!</p>
@@ -335,11 +367,12 @@
 </template>
 
 <script>
-import NavBar from "~/components/nav-bar"
+import NavBar from "~/components/nav-bar";
 import TeamCard from "~/components/team-card";
 import DevCard from "~/components/dev-card";
 import UserDevCardMobile from "~/components/user-dev-card-mobile";
 import DevDevCardMobile from "~/components/dev-dev-card-mobile";
+import ChangelogCard from "~/components/changelog-card";
 export default {
   data() {
     return {
@@ -371,8 +404,49 @@ export default {
       this.options.navigation = window.innerWidth > 768;
       if (window.innerWidth < 768 || window.innerHeight < 800)
         this.options.autoScrolling = false;
-      else
-        this.options.autoScrolling = true;
+      else this.options.autoScrolling = true;
+    },
+    changeDateFormat(date) {
+      let monthNames = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ];
+      date = new Date(date);
+      return `${date.getDate()} ${monthNames[date.getMonth()]}.`;
+    }
+  },
+  async fetch({ store }) {
+    await store.dispatch("changelogs/fetchChangelogs");
+  },
+  computed: {
+    changelogs() {
+      return this.$store.state.changelogs.all;
+    },
+    changelog() {
+      return this.$store.state.changelogs.current;
+    },
+    left() {
+      let changelog = this.$store.state.changelogs.current.changelog;
+      let half = Math.floor(changelog.length / 2);
+      let firstHalf = changelog.slice(0, half);
+      return firstHalf;
+    },
+    right() {
+      let changelog = this.$store.state.changelogs.current.changelog;
+      let half = this.left.length;
+      let end = changelog.length;
+      let secondHalf = changelog.slice(half, end);
+      return secondHalf;
     }
   },
   components: {
@@ -380,16 +454,35 @@ export default {
     TeamCard,
     DevCard,
     UserDevCardMobile,
-    DevDevCardMobile
+    DevDevCardMobile,
+    ChangelogCard
   }
 };
 </script>
 
 <style>
-
 @media (min-width: 1920px) {
   .max-text-4xl {
     font-size: 2.5rem !important;
-  } 
+  }
+}
+
+.list-dot > li::before {
+  content: "";
+  border: 2px #727272 solid !important;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: -10px;
+  position: absolute;
+}
+@media (min-width: 1280px) {
+  .list-dot > li::before {
+    margin-top: 13px;
+  }
+}
+@media (min-width: 1024px) {
+  .list-dot > li::before {
+    margin-top: 12px;
+  }
 }
 </style>
