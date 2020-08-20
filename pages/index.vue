@@ -292,7 +292,7 @@
             <p class="pb-5">
               So you think you have the guts to cook a potato or two by yourself? Great! POSP is entirely open source, so head out to our
               <a
-                href="https://t.me/SaucyPotatoesOfficial"
+                href="https://github.com/PotatoProject"
                 class="font-semibold text-p-yellow"
                 target="_blank"
               >GitHub page</a> for instructions and get right to it!
