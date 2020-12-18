@@ -128,41 +128,12 @@
         </div>
         <div class="col-span-3 md:col-span-2">
           <TeamCard
-            name="Ashwin R C"
-            role="Lead developer"
-            img="@/assets/img/pfp/ashwin.webp"
-            github="https://github.com/Ashwin4RC"
-            twitter="https://twitter.com/Ashwin4RC"
-          />
-        </div>
-        <div class="col-span-3 md:col-span-2">
-          <TeamCard
             name="Shreyansh Lodha"
             role="Lead developer"
             img="@/assets/img/pfp/shreyansh.webp"
             github="https://github.com/ShreyanshLodha"
             instagram="https://instagram.com/shreyanshlodha"
             twitter="https://twitter.com/_ShreyanshLodha"
-          />
-        </div>
-        <div class="col-span-3 md:col-span-2">
-          <TeamCard
-            name="Till Kottmann"
-            role="Developer"
-            img="@/assets/img/pfp/till.webp"
-            github="https://github.com/deletescape"
-            instagram="https://instagram.com/deletescape"
-            twitter="https://twitter.com/deletescape"
-          />
-        </div>
-        <div class="col-span-3 md:col-span-2">
-          <TeamCard
-            name="Jagrav Naik"
-            role="Developer"
-            img="@/assets/img/pfp/jagrav.webp"
-            github="https://github.com/JagravNaik"
-            instagram="https://www.instagram.com/jagrav_"
-            twitter="https://twitter.com/JagravN"
           />
         </div>
         <div class="col-span-6 md:col-span-2">
