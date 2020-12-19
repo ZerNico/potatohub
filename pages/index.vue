@@ -136,7 +136,7 @@
             twitter="https://twitter.com/_ShreyanshLodha"
           />
         </div>
-        <div class="col-span-6 md:col-span-2">
+        <div class="col-span-3 md:col-span-2">
           <TeamCard
             name="SphericalKat"
             role="Developer"
