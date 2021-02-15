@@ -91,7 +91,7 @@
           <TeamCard
             name="Kshitij Gupta"
             role="Founder"
-            img="@/assets/img/pfp/kshitij.webp"
+            :img="require(`@/assets/img/pfp/kshitij.webp`)"
             github="https://github.com/AgentFabulous"
             instagram="https://instagram.com/agent_fabulous"
             twitter="https://twitter.com/Agent_fabulous"
@@ -101,7 +101,7 @@
           <TeamCard
             name="Nico Franke"
             role="Co-founder"
-            img="@/assets/img/pfp/nico.webp"
+            :img="require(`@/assets/img/pfp/nico.webp`)"
             github="https://github.com/ZerNico"
             instagram="https://instagram.com/z3rnico"
             twitter="https://twitter.com/Z3rNico"
@@ -111,7 +111,7 @@
           <TeamCard
             name="Raj Jadeja"
             role="Lead developer"
-            img="@/assets/img/pfp/raj.webp"
+            :img="require(`@/assets/img/pfp/raj.webp`)"
             github="https://github.com/rajadeja"
             instagram="https://instagram.com/raj__jadeja"
           />
@@ -120,7 +120,7 @@
           <TeamCard
             name="HrX"
             role="Lead developer"
-            img="@/assets/img/pfp/hrx.webp"
+            :img="require(`@/assets/img/pfp/hrx.webp`)"
             github="https://github.com/HrX03"
             instagram="https://instagram.com/b_b_biancoboi"
             twitter="https://twitter.com/HrX2003"
@@ -130,7 +130,7 @@
           <TeamCard
             name="Shreyansh Lodha"
             role="Lead developer"
-            img="@/assets/img/pfp/shreyansh.webp"
+            :img="require(`@/assets/img/pfp/shreyansh.webp`)"
             github="https://github.com/ShreyanshLodha"
             instagram="https://instagram.com/shreyanshlodha"
             twitter="https://twitter.com/_ShreyanshLodha"
@@ -140,8 +140,18 @@
           <TeamCard
             name="SphericalKat"
             role="Developer"
-            img="@/assets/img/pfp/kat.webp"
+            :img="require(`@/assets/img/pfp/kat.webp`)"
             github="https://github.com/ATechnoHazard"
+          />
+        </div>
+        <div class="col-span-6 md:col-span-2">
+          <TeamCard
+            name="Sahil Sonar"
+            role="Developer"
+            :img="require(`@/assets/img/pfp/sahil.webp`)"
+            github="https://github.com/SahilSonar"
+            instagram="https://www.instagram.com/ss_sahilsonar/"
+            twitter="https://twitter.com/SahilSonar8"
           />
         </div>
         <div class="col-span-6">
@@ -151,7 +161,7 @@
           <TeamCard
             name="Rishi Bafna"
             role="UI / UX Designer"
-            img="@/assets/img/pfp/rishi.webp"
+            :img="require(`@/assets/img/pfp/rishi.webp`)"
             twitter="https://twitter.com/rshbfn"
           />
         </div>
@@ -159,7 +169,7 @@
           <TeamCard
             name="Karol Szcześniak"
             role="UI / UX Designer"
-            img="@/assets/img/pfp/karol.webp"
+            :img="require(`@/assets/img/pfp/karol.webp`)"
             github="https://github.com/McAwesomePL"
           />
         </div>
@@ -167,7 +177,7 @@
           <TeamCard
             name="Parth Shah"
             role="Designer and Animator"
-            img="@/assets/img/pfp/parth.webp"
+            :img="require(`@/assets/img/pfp/parth.webp`)"
             youtube="https://www.youtube.com/channel/UCkzhkIspDgx1HsUnA2oeUqA"
             github="https://github.com/valvze"
           />
