@@ -1,7 +1,13 @@
 <template>
   <div class="flex flex-col justify-center items-center h-screen">
-    <button v-for="device in devices" :key="device.name" class="bg-p-blue p-2 mt-2">
+    <button v-for="device in devices" :key="device.name"
+        class="px-5 py-3 mt-6 font-semibold text-white rounded-full focus:outline-none bg-p-blue hover:bg-blue-700">
       <a :href="device.url">{{ device.name }}</a>
+    </button>
+
+    <button
+        class="px-5 py-3 mt-6 font-semibold text-white rounded-full focus:outline-none bg-p-gray hover:bg-gray-700">
+            <a href='https://sourceforge.net/projects/posp/files/'>Archive</a>
     </button>
   </div>
 </template>
