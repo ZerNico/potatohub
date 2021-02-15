@@ -231,7 +231,7 @@
           <p>should be all set. Happy flashing!</p>
         </div>
         <div class="col-span-1">
-          <a href="https://sourceforge.net/projects/posp/files/" target="_blank">
+          <a href="./devices" target="_blank">
             <button
               class="px-5 py-3 mb-10 font-semibold bg-white rounded-full text-p-blue hover:bg-gray-300"
             >Download</button>
