@@ -15,7 +15,7 @@
 <script>
 export default {
   async asyncData({ $axios }) {
-    const fetchedDevices = await $axios.$get('https://raw.githubusercontent.com/PotatoProject/vendor_potato/dumaloo-staging/devices.json')
+    const fetchedDevices = await $axios.$get('https://raw.githubusercontent.com/PotatoProject/vendor_potato/dumaloo-release/devices.json')
     const devices = Array.from(Object.entries(fetchedDevices)).map(([name, body]) => {
       return { url: `${body.repo}/releases/latest`, name }
     })
