@@ -48,16 +48,3 @@
 .fullpage-wrapper .p-absolute {
   @apply absolute;
 }
-
-@media (min-width: 768px) {
-  ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
-
-  @-moz-document url-prefix() {
-    html, body {
-      overflow: hidden !important;
-    }
-  }
-}
