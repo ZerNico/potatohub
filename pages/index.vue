@@ -303,7 +303,7 @@
           <li class="px-1 py-1 md:py-0 lg:px-2 hover:text-p-lightgray">
             <a href="https://github.com/ZerNico/potatohub" target="_blank">View source code</a>
           </li>
-          <li class="pt-1 pl-1 md:pt-0 lg:pl-2">© 2020 Potato Open Sauce Project</li>
+          <li class="pt-1 pl-1 md:pt-0 lg:pl-2">© 2021 Potato Open Sauce Project</li>
         </ul>
       </div>
       <img
