@@ -212,7 +212,7 @@
         </div>
         <div class="col-span-6">
           <a
-            href="https://github.com/PotatoProject/vendor_potato/blob/dumaloo-release/CHANGELOG.md"
+            href="https://github.com/PotatoProject/vendor_potato/blob/frico-release/CHANGELOG.md"
             target="_blank"
           >
             <button
