@@ -19,7 +19,7 @@
 export default {
   async asyncData({ $axios }) {
     const fetchedDevices = await $axios.$get(
-      "https://raw.githubusercontent.com/PotatoProject/vendor_potato/frico-release/devices.json"
+      "https://raw.githubusercontent.com/PotatoProject/vendor_potato/frico_mr1-release/devices.json"
     );
     const devices = Array.from(Object.entries(fetchedDevices)).map(
       ([name, body]) => {
